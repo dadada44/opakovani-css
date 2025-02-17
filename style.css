@@ -1,0 +1,39 @@
+
+
+header {
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    color: #91a8f3;
+    padding: 20px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 40px;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+}
+
+nav a {
+    font-family: Arial, sans-serif;
+    color: #404966;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #fafafa;
+}
+
+@media (max-width: 789px) {
+    body {
+        overflow: hidden; 
+        width: 789px;      
+    }
+}
